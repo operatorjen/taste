@@ -9,8 +9,11 @@
   "license": "AGPL-3.0-or-later",
   "author": "operatorjen",
   "type": "module",
-  "main": "index.js",
+  "dependencies": {
+    "projections": "github:operatorjen/projections"
+  },
+  "main": "index.mjs",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.mjs"
   }
 }
